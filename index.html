@@ -27,7 +27,7 @@
         })
       });
     }
-    if (location.hash){
+    if (window.location.hash){
       fetchPage(location.hash.substr(2));
     }else{
       fetchPage('welcome');
